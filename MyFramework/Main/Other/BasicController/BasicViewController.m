@@ -7,7 +7,7 @@
 //
 
 #import "BasicViewController.h"
-
+#import "CommonMacros.h"
 @interface BasicViewController ()
 
 @end
@@ -16,24 +16,25 @@
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     if(self = [super initWithCoder:aDecoder]){
-        [self defaultDataAndView];
+   
     }
     return self;
 }
 
 - (instancetype)init {
     if(self = [super init]){
-        [self defaultDataAndView];
+     
     }
     return self;
-}
-- (void)defaultDataAndView {
-
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = RGBA(235, 235, 235, 1);
+    
+    
+    //修改 nav title 的字体
+      [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blackColor], NSForegroundColorAttributeName, [UIFont fontWithName:@"XinGothic-W4S" size:20], NSFontAttributeName, nil]];
     // Do any additional setup after loading the view.
 }
 

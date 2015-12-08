@@ -7,7 +7,7 @@
 //
 
 #import "BasicNavigationController.h"
-
+#import "CommonMacros.h"
 @interface BasicNavigationController ()
 
 @end

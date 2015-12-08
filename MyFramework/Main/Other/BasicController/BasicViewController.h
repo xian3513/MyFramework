@@ -11,6 +11,6 @@
 
 @interface BasicViewController : UIViewController
 
-- (void)defaultDataAndView;
+
 
 @end
