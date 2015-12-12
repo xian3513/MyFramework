@@ -34,10 +34,11 @@
 		90BF89601C15371C001B1D6A /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BF89561C15371C001B1D6A /* AFURLResponseSerialization.m */; settings = {ASSET_TAGS = (); }; };
 		90BF89611C15371C001B1D6A /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BF89581C15371C001B1D6A /* AFURLSessionManager.m */; settings = {ASSET_TAGS = (); }; };
 		90BF89631C153748001B1D6A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BF89621C153748001B1D6A /* libsqlite3.tbd */; };
-		90BF896C1C1538BE001B1D6A /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BF89671C1538BE001B1D6A /* BasicViewController.m */; settings = {ASSET_TAGS = (); }; };
 		90BF896D1C1538BE001B1D6A /* BasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BF89691C1538BE001B1D6A /* BasicNavigationController.m */; settings = {ASSET_TAGS = (); }; };
 		90BF896E1C1538BE001B1D6A /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BF896B1C1538BE001B1D6A /* MainTabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
 		90BF89701C1538CC001B1D6A /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 90BF896F1C1538CC001B1D6A /* README.txt */; settings = {ASSET_TAGS = (); }; };
+		90FCA7351C1BF5D7001751C8 /* NSObject+Method.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FCA7341C1BF5D7001751C8 /* NSObject+Method.m */; settings = {ASSET_TAGS = (); }; };
+		90FCA7381C1BF603001751C8 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FCA7371C1BF603001751C8 /* BasicViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,13 +114,15 @@
 		90BF89571C15371C001B1D6A /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		90BF89581C15371C001B1D6A /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		90BF89621C153748001B1D6A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		90BF89661C1538BE001B1D6A /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
-		90BF89671C1538BE001B1D6A /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
 		90BF89681C1538BE001B1D6A /* BasicNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicNavigationController.h; sourceTree = "<group>"; };
 		90BF89691C1538BE001B1D6A /* BasicNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicNavigationController.m; sourceTree = "<group>"; };
 		90BF896A1C1538BE001B1D6A /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
 		90BF896B1C1538BE001B1D6A /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
 		90BF896F1C1538CC001B1D6A /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		90FCA7331C1BF5D7001751C8 /* NSObject+Method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Method.h"; sourceTree = "<group>"; };
+		90FCA7341C1BF5D7001751C8 /* NSObject+Method.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Method.m"; sourceTree = "<group>"; };
+		90FCA7361C1BF603001751C8 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		90FCA7371C1BF603001751C8 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +238,8 @@
 				90BF890E1C153610001B1D6A /* UIView+Frame.m */,
 				90BF890F1C153610001B1D6A /* NSString+Method.h */,
 				90BF89101C153610001B1D6A /* NSString+Method.m */,
+				90FCA7331C1BF5D7001751C8 /* NSObject+Method.h */,
+				90FCA7341C1BF5D7001751C8 /* NSObject+Method.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -350,8 +355,8 @@
 		90BF89651C1538AF001B1D6A /* BasicController */ = {
 			isa = PBXGroup;
 			children = (
-				90BF89661C1538BE001B1D6A /* BasicViewController.h */,
-				90BF89671C1538BE001B1D6A /* BasicViewController.m */,
+				90FCA7361C1BF603001751C8 /* BasicViewController.h */,
+				90FCA7371C1BF603001751C8 /* BasicViewController.m */,
 				90BF89681C1538BE001B1D6A /* BasicNavigationController.h */,
 				90BF89691C1538BE001B1D6A /* BasicNavigationController.m */,
 				90BF896A1C1538BE001B1D6A /* MainTabBarViewController.h */,
@@ -494,6 +499,7 @@
 				90BF89591C15371C001B1D6A /* AFHTTPRequestOperation.m in Sources */,
 				90BF89111C153610001B1D6A /* UIView+Frame.m in Sources */,
 				90BF88DA1C153474001B1D6A /* ViewController.m in Sources */,
+				90FCA7381C1BF603001751C8 /* BasicViewController.m in Sources */,
 				90BF88D71C153474001B1D6A /* AppDelegate.m in Sources */,
 				90BF89251C1536D2001B1D6A /* FMDatabase.m in Sources */,
 				90BF89611C15371C001B1D6A /* AFURLSessionManager.m in Sources */,
@@ -504,11 +510,11 @@
 				90BF895C1C15371C001B1D6A /* AFNetworkReachabilityManager.m in Sources */,
 				90BF89281C1536D2001B1D6A /* FMDatabaseQueue.m in Sources */,
 				90BF89601C15371C001B1D6A /* AFURLResponseSerialization.m in Sources */,
-				90BF896C1C1538BE001B1D6A /* BasicViewController.m in Sources */,
 				90BF895F1C15371C001B1D6A /* AFURLRequestSerialization.m in Sources */,
 				90BF895E1C15371C001B1D6A /* AFURLConnectionOperation.m in Sources */,
 				90BF895A1C15371C001B1D6A /* AFHTTPRequestOperationManager.m in Sources */,
 				90BF89121C153610001B1D6A /* NSString+Method.m in Sources */,
+				90FCA7351C1BF5D7001751C8 /* NSObject+Method.m in Sources */,
 				90BF89191C1536C5001B1D6A /* Reachability.m in Sources */,
 				90BF895D1C15371C001B1D6A /* AFSecurityPolicy.m in Sources */,
 				90BF89291C1536D2001B1D6A /* FMResultSet.m in Sources */,

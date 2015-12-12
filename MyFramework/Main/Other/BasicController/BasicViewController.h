@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BasicNavigationController.h"
+
 
 @interface BasicViewController : UIViewController
 
-
-
+#pragma mark - tabbarAnimation method
+- (void)followScrollView:(UIScrollView *)scrollableView;
 @end
